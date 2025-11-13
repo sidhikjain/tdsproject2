@@ -39,7 +39,7 @@ RUN playwright install-deps chromium
 
 # Copy application code
 COPY main.py .
-COPY test_quiz.py .
+
 
 # Expose port
 EXPOSE 8000
